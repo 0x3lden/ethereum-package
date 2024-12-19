@@ -232,7 +232,7 @@ def get_config_frontend(
         ports=FRONTEND_USED_PORTS,
         env_vars={
             "NEXT_PUBLIC_API_HOST": "backend.blockscout.l1.relend.la-tribu.xyz",
-            # "NEXT_PUBLIC_APP_HOST": "frontend.blockscout.l1.relend.la-tribu.xyz",
+            "NEXT_PUBLIC_APP_HOST": "frontend.blockscout.l1.relend.la-tribu.xyz",
             # "NEXT_PUBLIC_STATS_API_HOST": "stats.blockscout.l1.relend.la-tribu.xyz",
             # "NEXT_PUBLIC_APP_PROTOCOL": "https",
             # "NEXT_PUBLIC_APP_PORT": "443",
