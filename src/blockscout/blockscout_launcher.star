@@ -206,7 +206,7 @@ def get_config_backend(
             "API_V2_ENABLED": "true",
             "PORT": "{}".format(HTTP_PORT_NUMBER),
             "SECRET_KEY_BASE": "56NtB48ear7+wMSf0IQuWDAAazhpb31qyc7GiyspBP2vh7t5zlCsF5QDv76chXeN",
-            "BLOCKSCOUT_HOST": "frontend.blockscout.l1.relend.la-tribu.xyz",
+            "BLOCKSCOUT_HOST": "blockscout.l1.relend.la-tribu.xyz",
             "BLOCKSCOUT_PORT": "443"
         },
         min_cpu=BLOCKSCOUT_MIN_CPU,
@@ -233,8 +233,8 @@ def get_config_frontend(
         ),
         ports=FRONTEND_USED_PORTS,
         env_vars={
-            "NEXT_PUBLIC_APP_HOST": "frontend.blockscout.l1.relend.la-tribu.xyz",
-            "NEXT_PUBLIC_API_HOST": "backend.blockscout.l1.relend.la-tribu.xyz",
+            "NEXT_PUBLIC_APP_HOST": "blockscout.l1.relend.la-tribu.xyz",
+            "NEXT_PUBLIC_API_HOST": "blockscout.l1.relend.la-tribu.xyz",
             "NEXT_PUBLIC_API_PROTOCOL": "https",
             "NEXT_PUBLIC_API_WEBSOCKET_PROTOCOL": "wss",
             "NEXT_PUBLIC_NETWORK_NAME": "L1 Relend",
