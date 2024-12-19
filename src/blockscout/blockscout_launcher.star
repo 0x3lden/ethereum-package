@@ -206,7 +206,8 @@ def get_config_backend(
             "API_V2_ENABLED": "true",
             "PORT": "{}".format(HTTP_PORT_NUMBER),
             "SECRET_KEY_BASE": "56NtB48ear7+wMSf0IQuWDAAazhpb31qyc7GiyspBP2vh7t5zlCsF5QDv76chXeN",
-            "BLOCKSCOUT_HOST": "frontend.blockscout.l1.relend.la-tribu.xyz/",
+            "BLOCKSCOUT_HOST": "frontend.blockscout.l1.relend.la-tribu.xyz",
+            "BLOCKSCOUT_PORT": "443"
         },
         min_cpu=BLOCKSCOUT_MIN_CPU,
         max_cpu=BLOCKSCOUT_MAX_CPU,
