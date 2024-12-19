@@ -232,11 +232,12 @@ def get_config_frontend(
         ports=FRONTEND_USED_PORTS,
         env_vars={
             "NEXT_PUBLIC_APP_HOST": "frontend.blockscout.l1.relend.la-tribu.xyz",
+            "NEXT_PUBLIC_API_HOST": "backend.blockscout.l1.relend.la-tribu.xyz",
             "NEXT_PUBLIC_API_PROTOCOL": "http",
             "NEXT_PUBLIC_API_WEBSOCKET_PROTOCOL": "ws",
             "NEXT_PUBLIC_NETWORK_NAME": "L1 Relend",
             "NEXT_PUBLIC_NETWORK_ID": network_params.network_id,
-            "NEXT_PUBLIC_NETWORK_RPC_URL": "l1.relend.la-tribu.xyz",
+            "NEXT_PUBLIC_NETWORK_RPC_URL": "https://l1.relend.la-tribu.xyz",
             "NEXT_PUBLIC_AD_BANNER_PROVIDER": "none",
             "NEXT_PUBLIC_AD_TEXT_PROVIDER": "none",
             "NEXT_PUBLIC_IS_TESTNET": "true",
